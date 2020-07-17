@@ -3,8 +3,8 @@ import random
 
 pygame.init()
 pygame.display.set_caption('SnakeGame')
-snake=pygame.image.load(r'snakeBody.PNG')
-food=pygame.image.load(r'food2.PNG')
+snake=pygame.image.load(r'C:\Users\jagat\Desktop\snakeBody.PNG')
+food=pygame.image.load(r'C:\Users\jagat\Desktop\food2.PNG')
 font=pygame.font.SysFont(None,55)
 GameDisplay=pygame.display.set_mode((500,500))
 def screen_score(text,color,x,y):
@@ -103,5 +103,4 @@ def GameLoop():
         clock.tick(fps)
     pygame.quit()
 GameLoop()
-
-
+            
